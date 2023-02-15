@@ -1,0 +1,21 @@
+{
+    "name": "DarkIn🕉️",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Bored of looking at websites the same way? Meet DarkIn a chrome extension that can change your website from dark mood to light mode 🕉️ ",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "DarkIn🕉️",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
